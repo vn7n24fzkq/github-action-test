@@ -20,4 +20,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONTAIN_PRAIVTE: 1
-      - run: ls -a
+      - run: ls -a profile-summary-card-output

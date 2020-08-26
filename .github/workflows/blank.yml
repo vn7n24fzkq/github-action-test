@@ -20,4 +20,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONTAIN_PRAIVTE: 1
-      - run: echo "::set-env CONTAIN_PRAIVTE=CONTAIN_PRAIVTE::1"
+      - run: echo "::set-env name=CONTAIN_PRAIVTE::1"

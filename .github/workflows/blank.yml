@@ -19,5 +19,3 @@ jobs:
       - uses: vn7n24fzkq/github-profile-summary-cards@master
         env:
           GITHUB_TOKEN: ${{ secrets.test }}
-          CONTAIN_PRAIVTE: 1
-      - run: echo ${{ github.GITHUB_REF }}

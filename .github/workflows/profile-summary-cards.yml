@@ -9,6 +9,9 @@ jobs:
     name: generate
 
     steps:
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       - uses: actions/checkout@v2
       - uses: vn7n24fzkq/github-profile-summary-cards@master
         env:

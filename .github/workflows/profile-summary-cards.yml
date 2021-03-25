@@ -13,7 +13,7 @@ jobs:
         id: date
         run: date +'%Y-%m-%d'
       - uses: actions/checkout@v2
-      - uses: vn7n24fzkq/github-profile-summary-cards@test-github-api
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:

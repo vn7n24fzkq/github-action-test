@@ -13,8 +13,9 @@ jobs:
         id: date
         run: date +'%Y-%m-%d'
       - uses: actions/checkout@v2
-      - uses: vn7n24fzkq/github-profile-summary-cards@master
+      - uses: vn7n24fzkq/github-profile-summary-cards@pre-release-v0.5.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 8

@@ -20,3 +20,4 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           UTC_OFFSET: 8
           EXCLUDE: "java"
+          AUTO_PUSH: true
